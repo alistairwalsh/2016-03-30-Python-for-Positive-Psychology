@@ -16,6 +16,11 @@
     Because any particular user can only have one fork of a repository,
     but instructors frequently need to work on several workshops at once.
 
+*   *Why use the `gh-pages` branch instead of `master`?
+
+    Because [GitHub automatically publishes `gh-pages`](https://help.github.com/articles/creating-project-pages-manually/)
+    as a website.
+
 *   *Why use Jekyll?  Why not some other markup language and some other converter?*
 
     Because it's the default on GitHub.
@@ -32,13 +37,11 @@
 
     Go ahead,
     but you *must* have the variables described in [CUSTOMIZATION.md](CUSTOMIZATION.md).
-    Please make sure to run `tools/check.py` after adding or changing variables
-    to make sure that our main website will understand your changes.
 
 *   *What is the "Windows installer"?*
 
     We have built a small installation helper for Windows
-    that installs `nano` and `sqlite`, adds R to the path, and so on.
+    that installs nano and SQLite, adds R to the path, and so on.
     It is maintained in
     [https://github.com/swcarpentry/windows-installer](https://github.com/swcarpentry/windows-installer),
     which also has an up-to-date description of what it actually does.
@@ -176,3 +179,7 @@
     If you're using a browser plugin like [HTTPS Everywhere](https://www.eff.org/https-everywhere)
     you will need to disable it for your workshop's site.
     We are presently (January 2015) working to get HTTPS working properly on our website.
+
+*   *Help, my github.io website is not updating!*
+
+    Ensure that strings in the index.html header are enclosed in quotations `"`. Special characters such as `"&"` may render correctly on your local machine but cause rendering to fail (silently?) on GitHub.

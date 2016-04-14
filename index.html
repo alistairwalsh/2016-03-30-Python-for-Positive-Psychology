@@ -28,12 +28,20 @@ humandate: Mar 30-31, 2016
 humantime: 9:00 am - 4:30 pm
 startdate: 2016-03-30
 enddate: 2016-03-31
+<<<<<<< HEAD
 instructor: ["Alistair Walsh"]
 helper: []
 contact: alistair.walsh@unimelb.edu.au
 etherpad: https://etherpad.wikimedia.org/p/2015-12-7_Unimelb_Python
 eventbrite: 23065721193
 >>>>>>> fa112d62e591588215ef90c28a167faa84e045db
+=======
+instructor: ["Alistair Walsh", "Dan Sandiford", "Brook Shiferaw", "Tim Esler", "Nikki Rubinstein"]
+helper: ["Peggy Kern","Caroline X Gao"]
+contact: alistair.walsh@unimelb.edu.au
+etherpad: https://v.etherpad.org/p/2016-03-30-Python_for_positive_psychology
+eventbrite: 23065721193
+>>>>>>> origin/gh-pages
 ---
 
 
@@ -68,10 +76,13 @@ eventbrite: 23065721193
 </iframe>
 {% endif %}
 
+<<<<<<< HEAD
 <h4>This is the workshop template.  Use it to create your own website. 
 Delete this line and email the link to your workshop page to admin@software-carpentry.org.  
 If this is a self organized workshop, please be sure to include any other details 
 Software Carpentry staff may need to know in your email.</h4>
+=======
+>>>>>>> origin/gh-pages
 
 
 <h2 id="general">General Information</h2>
@@ -138,7 +149,11 @@ Software Carpentry staff may need to know in your email.</h4>
   Modify the block below if there are any special requirements.
 -->
 <p id="requirements">
+<<<<<<< HEAD
   <strong>Requirements:</strong> Participants must bring a laptop with a 
+=======
+  <strong>Requirements:</strong> <strong>**Participants must bring a laptop**</strong> with a 
+>>>>>>> origin/gh-pages
   Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
@@ -163,6 +178,10 @@ Software Carpentry staff may need to know in your email.</h4>
   {% endif %}
   for more information.
 </p>
+<p>
+  or <a href="https://www.facebook.com/groups/NeuralCode/?ref=bookmarks">The NeuralCode group</a> on Facebook
+  
+</p>
 
 <hr/>
 
@@ -183,7 +202,7 @@ Software Carpentry staff may need to know in your email.</h4>
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Wed March 30th</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
@@ -194,12 +213,12 @@ Software Carpentry staff may need to know in your email.</h4>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Thur March 31st</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>09:00</td>  <td>Building programs with Python</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>13:00</td>  <td>Version control with Git</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
@@ -318,6 +337,7 @@ Software Carpentry staff may need to know in your email.</h4>
       <li><a href="{{site.swc_githubio}}/git-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
+  <!--
   <div class="col-md-6">
     <h3 id="syllabus-sql">Managing Data with SQL</h3>
     <ul>
@@ -332,6 +352,7 @@ Software Carpentry staff may need to know in your email.</h4>
       <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
     </ul>
   </div>
+  -->
 </div>
 
 <hr/>
@@ -351,6 +372,7 @@ Software Carpentry staff may need to know in your email.</h4>
 <h2 id="setup">Setup</h2>
 
 <p>
+<<<<<<< HEAD
   To participate in a Software Carpentry workshop, you will need
   access to the software described below. In addition, you will
   need an up-to-date web browser.
@@ -361,6 +383,46 @@ Software Carpentry staff may need to know in your email.</h4>
   <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+=======
+  <strong>Requirements:</strong>
+  <strong>**Participants will be required to bring their own laptop**</strong>,
+  from which they will logon to the
+  <a href="http://resbaz.cloud.edu.au/ ">Data Intensive Tools for the Cloud</a>
+  (DIT4C) environment on the
+  <a href="http://cloud.nectar.org.au/">NeCTAR Research Cloud</a>.
+  This environment has all the required software pre-installed,
+  so there's nothing participants need to do in preparation for the workshop.
+  Having said that, there are software installation instructions <a href="#software_install">below</a>
+  for participants who'd like to install the software on their own computer before or after the workshop.
+  Also note that participants are required to abide by Software Carpentry's
+  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+</p>
+
+<p>
+  <strong>Wifi:</strong>
+  If you're bringing a wifi device to the workshop,
+  access to the wifi network will depend on whether you're affiliated with the Univerity of Melbourne.
+  University of Melbourne staff/students can connect to the UniWireless network;
+  instructions on how to do this and where to get assistance can be found
+  <a href="https://its.unimelb.edu.au/help/networks-access/networks-internet/connect-wireless/unimelb">here</a>.
+  Attendees from other Australian universities should find out (from the IT website of
+  their home institution) how to connect to the Eduroam wireless network.
+  We will also provide a dedicated router in the training room for those who cannot connect with any other method.
+</p>
+
+<p>
+<strong>software_install</strong>
+  Installing the following software on your computer is highly recomended. During the workshop you will have access to 
+  experienced Python users who can help you if things go wrong. You will also have a working environment immediately 
+  after the workshop to apply what you've learnt to your own reserach questions.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+>>>>>>> origin/gh-pages
 <div id="shell"> <!-- Start of 'shell' section. -->
   <h3>The Bash Shell</h3>
 
@@ -503,6 +565,7 @@ Software Carpentry staff may need to know in your email.</h4>
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
+<<<<<<< HEAD
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
         To install it,
@@ -511,6 +574,16 @@ Software Carpentry staff may need to know in your email.</h4>
         <strong>This installer requires an active internet connection.</strong>
       </p>
       <p>
+=======
+      <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        To install it,
+        download the <a href="{{site.swc_installer}}">Software Carpentry Windows installer</a>
+        and double click on the file to run it.
+        <strong>This installer requires an active internet connection.</strong>
+      </p>
+      <p>
+>>>>>>> origin/gh-pages
         Others editors that you can use are
         <a href="http://notepad-plus-plus.org/">Notepad++</a> or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
@@ -521,11 +594,19 @@ Software Carpentry staff may need to know in your email.</h4>
     </div>
     <div class="col-md-4">
       <h4 id="editor-macosx">Mac OS X</h4>
+<<<<<<< HEAD
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
         It should be pre-installed.
       </p>
       <p>
+=======
+      <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        It should be pre-installed.
+      </p>
+      <p>
+>>>>>>> origin/gh-pages
         Others editors that you can use are
         <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
@@ -634,6 +715,10 @@ Software Carpentry staff may need to know in your email.</h4>
 </div> <!-- End of 'Python' section. -->
 
 <div id="r"> <!-- Start of 'R' section. -->
+<<<<<<< HEAD
+=======
+<!--
+>>>>>>> origin/gh-pages
   <h3>R</h3>
 
   <p>
@@ -677,8 +762,14 @@ Software Carpentry staff may need to know in your email.</h4>
     </div>
   </div>
 </div> <!-- End of 'R' section. -->
+<<<<<<< HEAD
 
 <div id="sql"> <!-- Start of 'SQLite' section. -->
+=======
+<!--
+<div id="sql"> <!-- Start of 'SQLite' section. -->
+<!--
+>>>>>>> origin/gh-pages
   <h3>SQLite</h3>
 
   <p>
@@ -709,12 +800,20 @@ Software Carpentry staff may need to know in your email.</h4>
       </p>
     </div>
   </div>
+<<<<<<< HEAD
 
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> <!-- End of 'SQLite' section. -->
+=======
+>>>>>>> origin/gh-pages
 
+  <p><strong>If you installed Anaconda, it also has a copy of SQLite
+    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
+    Instructors will provide a workaround for it if needed.</strong></p>
+</div> <!-- End of 'SQLite' section. -->
+-->
 <!--
   Uncomment this section if you are using our virtual machine.
 
